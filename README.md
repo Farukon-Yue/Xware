@@ -208,3 +208,8 @@ http://host:9000/unbind
 host 换成你设备的 IP
 
 若返回结果为[0]，则解绑成功，否则不成功！
+
+
+
+另外，在远程下载界面中，存储盘只会有C盘，D盘这类的windows盘符，映射关系怎么建立呢？
+ls -l /tmp/thunder/volumes/
